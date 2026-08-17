@@ -14,7 +14,6 @@
 <canvas class="bg-canvas" id="bgCanvas"></canvas>
 <div class="grain"></div>
 
-<!-- NAV -->
 <header class="nav" id="nav">
   <button class="nav__logo" id="menuTrigger">
     <span class="nav__star">★</span>
@@ -29,7 +28,6 @@
   </div>
 </header>
 
-<!-- MENU -->
 <div class="menu-backdrop" id="menuBackdrop"></div>
 <nav class="menu" id="menu">
   <div class="menu__header"><div class="eyebrow">Navigation · 案内</div></div>
@@ -39,14 +37,12 @@
     <li><a class="menu__item" data-view="devoirs"><span class="menu__num">03</span><span class="menu__label">Devoirs</span><span class="menu__kanji">宿題</span></a></li>
     <li><a class="menu__item" data-view="objectifs"><span class="menu__num">04</span><span class="menu__label">Objectifs</span><span class="menu__kanji">目標</span></a></li>
     <li><a class="menu__item" data-view="carnet"><span class="menu__num">05</span><span class="menu__label">Carnet</span><span class="menu__kanji">日記</span></a></li>
-  <li><a class="menu__item" data-view="habitudes"><span class="menu__num">06</span><span class="menu__label">Habitudes</span><span class="menu__kanji">習慣</span></a></li>
-</ul>
+    <li><a class="menu__item" data-view="habitudes"><span class="menu__num">06</span><span class="menu__label">Habitudes</span><span class="menu__kanji">習慣</span></a></li>
+  </ul>
   <div class="menu__footer"><span>Échap pour fermer · 星</span></div>
 </nav>
 
-<!-- MAIN -->
 <main>
-
 <!-- DASHBOARD -->
 <section class="view is-active" id="view-dashboard">
   <div class="hero">
@@ -91,7 +87,6 @@
     </div>
   </div>
 
-  <!-- HABITS -->
   <div class="panel" style="margin-top: 1.5rem;">
     <div class="panel__head"><div class="panel__title">Habitudes <span class="kanji">習慣</span></div><div class="panel__meta">21 jours</div></div>
     <div class="habits" id="habitsContainer"></div>
@@ -205,46 +200,6 @@
         <div class="sub-objectif done"><div class="sub-objectif__check"></div><div class="sub-objectif__text">L'Étranger — Camus</div></div>
         <div class="sub-objectif done"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Du côté de chez Swann — Proust</div></div>
         <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">La Nausée — Sartre</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Voyage au bout de la nuit — Céline</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Les Fleurs du Mal — Baudelaire</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Le Père Goriot — Balzac</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Bel-Ami — Maupassant</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Candide — Voltaire</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">En attendant Godot — Beckett</div></div>
-      </div>
-    </div>
-    <div class="objectif" data-id="3">
-      <div class="objectif__head"><div class="objectif__title">Niveau JLPT N4 japonais <span class="kanji">日本語</span></div><div class="objectif__pct"><span class="obj-pct">50</span><span class="pct-sign">%</span></div></div>
-      <div class="objectif__bar"><div class="objectif__fill"></div></div>
-      <div class="objectif__sublist">
-        <div class="sub-objectif done"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Maîtriser hiragana & katakana</div></div>
-        <div class="sub-objectif done"><div class="sub-objectif__check"></div><div class="sub-objectif__text">300 kanji (N5 + début N4)</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Vocabulaire 1500 mots</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Grammaire N4 complète</div></div>
-      </div>
-    </div>
-    <div class="objectif" data-id="4">
-      <div class="objectif__head"><div class="objectif__title">Routine sportive stable <span class="kanji">体力</span></div><div class="objectif__pct"><span class="obj-pct">37</span><span class="pct-sign">%</span></div></div>
-      <div class="objectif__bar"><div class="objectif__fill"></div></div>
-      <div class="objectif__sublist">
-        <div class="sub-objectif done"><div class="sub-objectif__check"></div><div class="sub-objectif__text">3 séances / semaine pendant 1 mois</div></div>
-        <div class="sub-objectif done"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Tenir un journal d'entraînement</div></div>
-        <div class="sub-objectif done"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Courir 5 km sans s'arrêter</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">3 séances / semaine pendant 3 mois</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Tenir 10 km en course</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Sommeil régulier 22h30 — 6h30</div></div>
-      </div>
-    </div>
-    <div class="objectif" data-id="5">
-      <div class="objectif__head"><div class="objectif__title">Projet personnel : app coding <span class="kanji">創作</span></div><div class="objectif__pct"><span class="obj-pct">33</span><span class="pct-sign">%</span></div></div>
-      <div class="objectif__bar"><div class="objectif__fill"></div></div>
-      <div class="objectif__sublist">
-        <div class="sub-objectif done"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Maîtriser HTML/CSS/Sass</div></div>
-        <div class="sub-objectif done"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Apprendre JavaScript ES6+</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Framework React complet</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Backend Node.js + base de données</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Shipper une première app en ligne</div></div>
-        <div class="sub-objectif"><div class="sub-objectif__check"></div><div class="sub-objectif__text">Constituer un portfolio de 3 projets</div></div>
       </div>
     </div>
   </div>
@@ -259,7 +214,6 @@
   </div>
   <div class="carnet-date"><span class="num" id="carnetDateNum">17</span> <span id="carnetDateMonth">août</span></div>
   <div class="carnet-sub" id="carnetDateFull">Samedi · 2024</div>
-
   <div class="carnet-mood">
     <div class="carnet-mood__label">Comment te sens-tu ? · 気分</div>
     <div class="carnet-mood__dots" id="moodDots">
@@ -270,35 +224,48 @@
       <div class="carnet-mood__dot" data-mood="5"></div>
     </div>
   </div>
-
   <div class="carnet-section">
     <div class="carnet-section__label">Qu'ai-je appris aujourd'hui ? <span class="kanji">学び</span></div>
     <div class="carnet-section__hint">Une idée, une notion, un moment de compréhension — pas besoin d'être complet.</div>
     <textarea class="carnet-textarea" id="carnetLearned" placeholder="Aujourd'hui, j'ai compris que…" maxlength="500"></textarea>
     <div class="carnet-count"><span id="carnetLearnedCount">0</span> / 500</div>
   </div>
-
-  <div class="carnet-section">
-    <div class="carnet-section__label">Mon intention pour demain <span class="kanji">意図</span></div>
-    <div class="carnet-section__hint">Une seule chose sur laquelle tu veux poser ton attention.</div>
-    <textarea class="carnet-textarea" id="carnetIntent" placeholder="Demain, je veux…" maxlength="300"></textarea>
-    <div class="carnet-count"><span id="carnetIntentCount">0</span> / 300</div>
-  </div>
-
   <div class="carnet-footer">Ce carnet ne sera pas noté. Il est pour toi seul. · この日記はあなただけのものです。</div>
 </section>
 
-<section class="view" id="view-habitudes"><div class="page-head"><div class="eyebrow">Habitudes</div><h2 class="page-head__title">Gestion <span class="kanji">管理</span></h2><p class="page-head__sub">Crée et suis tes habitudes au quotidien, hebdomadaire ou mensuel. Chaque jour offre une nouvelle case.</p></div><div class="panel"><div class="habit-form"><input type="text" id="newHabitName" placeholder="Nom de l'habitude"><input type="text" id="newHabitKanji" placeholder="Kanji (ex: 習慣)"><select id="newHabitFreq"><option value="daily">Quotidien</option><option value="weekly">Hebdomadaire</option><option value="monthly">Mensuel</option></select><button id="addHabitBtn">Ajouter</button></div><div class="habit-view-toggle"><button class="habit-view-btn is-active" data-habit-view="daily">Quotidien</button><button class="habit-view-btn" data-habit-view="weekly">Hebdomadaire</button><button class="habit-view-btn" data-habit-view="monthly">Mensuel</button></div><div class="habit-manager" id="habitsManager"></div></div></section>
+<!-- HABITUDES -->
+<section class="view" id="view-habitudes">
+  <div class="page-head">
+    <div class="eyebrow">Habitudes</div>
+    <h2 class="page-head__title">Gestion <span class="kanji">管理</span></h2>
+    <p class="page-head__sub">Crée et suis tes habitudes au quotidien, hebdomadaire ou mensuel. Chaque jour offre une nouvelle case.</p>
+  </div>
+  <div class="panel">
+    <div class="habit-form">
+      <input type="text" id="newHabitName" placeholder="Nom de l'habitude">
+      <input type="text" id="newHabitKanji" placeholder="Kanji (ex: 習慣)">
+      <select id="newHabitFreq">
+        <option value="daily">Quotidien</option>
+        <option value="weekly">Hebdomadaire</option>
+        <option value="monthly">Mensuel</option>
+      </select>
+      <button id="addHabitBtn">Ajouter</button>
+    </div>
+    <div class="habit-view-toggle">
+      <button class="habit-view-btn is-active" data-habit-view="daily">Quotidien</button>
+      <button class="habit-view-btn" data-habit-view="weekly">Hebdomadaire</button>
+      <button class="habit-view-btn" data-habit-view="monthly">Mensuel</button>
+    </div>
+    <div class="habit-manager" id="habitsManager"></div>
+  </div>
+</section>
+
 </main>
 
 <!-- ZEN OVERLAY -->
 <div class="zen-overlay" id="zenOverlay">
   <button class="zen__close" id="zenClose">✕</button>
-  <div class="zen__circle-wrap">
-    <div class="zen__circle">
-      <span class="zen__breath-text" id="zenBreathText">Inspirez</span>
-    </div>
-  </div>
+  <div class="zen__circle-wrap"><div class="zen__circle"><span class="zen__breath-text" id="zenBreathText">Inspirez</span></div></div>
   <div class="zen__timer" id="zenTimer">00:00</div>
   <div class="zen__phase" id="zenPhase">Session libre</div>
   <div class="zen__controls">
@@ -325,21 +292,9 @@
     <button class="palette-option" data-theme="sumi"><div class="palette-option__swatch palette-option__swatch--sumi"></div><div class="palette-option__name"><span class="palette-option__fr">Sumi</span><span class="palette-option__jp">墨 · encre</span></div><div class="palette-option__check"></div></button>
     <button class="palette-option" data-theme="yuzu"><div class="palette-option__swatch palette-option__swatch--yuzu"></div><div class="palette-option__name"><span class="palette-option__fr">Yuzu</span><span class="palette-option__jp">柚子 · agrume</span></div><div class="palette-option__check"></div></button>
   </div>
-
   <div class="panel-section">
     <div class="panel-section__head"><span class="panel-section__label">Intensité du fond</span><span class="panel-section__value" id="intensityValue">70</span></div>
     <input type="range" min="0" max="100" value="70" class="intensity__slider" id="intensitySlider">
-    <div class="panel-section__hint">Le fond réagit aussi à la souris — passe doucement dessus.</div>
-  </div>
-
-  <div class="panel-section">
-    <div class="panel-section__head"><span class="panel-section__label">Ambiance sonore · 音</span></div>
-    <div class="sound-grid">
-      <button class="sound-btn" data-sound="rain"><span class="sound-btn__icon">雨</span><span class="sound-btn__label">Pluie</span></button>
-      <button class="sound-btn" data-sound="wind"><span class="sound-btn__icon">風</span><span class="sound-btn__label">Vent</span></button>
-      <button class="sound-btn" data-sound="matcha"><span class="sound-btn__icon">茶</span><span class="sound-btn__label">Thé</span></button>
-      <button class="sound-btn" data-sound="silence"><span class="sound-btn__icon">静</span><span class="sound-btn__label">Silence</span></button>
-    </div>
   </div>
 </aside>
 
